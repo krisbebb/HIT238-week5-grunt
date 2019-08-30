@@ -26,6 +26,9 @@ You will need the following dependencies to use this gulpfile
 You can install them with the following command
 `npm install --save-dev babel babel-preset-env babelify browserify gulp@next gulp-autoprefixer gulp-combine-mq gulp-concat gulp-if gulp-load--plugins gulp-sass gulp-uglify vinyl-buffer vinyl-source-stream yargs`
 
+Edited -- 
+`npm install --save-dev babel-cli babel-preset-env babelify@7 babel-cli browserify gulp gulp-autoprefixer gulp-combine-mq gulp-concat gulp-if gulp-load-plugins gulp-sass gulp-uglify vinyl-buffer vinyl-source-stream yargs`
+
 If you use the existing script import you will also need the follow to include the fetch pollyfill
 * whatwg-fetch
 
